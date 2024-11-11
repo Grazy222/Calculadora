@@ -25,6 +25,7 @@ function App() { //Estado para armazenar a entrada do usuário
 
   return (
     <div className="App">
+      <h1>Calculadora Simples </h1>
       <div className='calculator'>
         <input type='text' value={input} readOnly />
         <div className='buttons'>
